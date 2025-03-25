@@ -7,10 +7,18 @@ import reportWebVitals from './reportWebVitals';
 const tmp = 1098;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+function testFunc() {
+  return "success";
+}
+
+const fname = "Uzair";
+const lname = "Sohail";
+
 root.render(
   <div>
-    <h1>Hello world</h1>
-    <h2>Hello again but smaller {tmp}</h2>
+    <h1>Hello {fname + " " + lname}</h1>
+    <h2>Hello again but smaller {testFunc()}</h2>
     {/*this is a comment*/}
     {/* // <React.StrictMode>
   //   <App />
