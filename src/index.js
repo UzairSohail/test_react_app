@@ -4,11 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const tmp = 1098;
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <div>
+    <h1>Hello world</h1>
+    <h2>Hello again but smaller {tmp}</h2>
+    {/*this is a comment*/}
+    {/* // <React.StrictMode>
+  //   <App />
+  // </React.StrictMode> */}
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
